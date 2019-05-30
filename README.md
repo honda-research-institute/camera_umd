@@ -1,13 +1,13 @@
-### Generic UVC Camera Driver ###
+# Generic UVC Camera Driver
 
-# Dependency
+## Dependency
 `sudo apt-get install libv4l-dev`
 
-# To run
+## To run
 `roslaunch uvc_camera camera_node.launch // use rviz to visualize`
 
 
-# ZED supported modes
+## ZED supported modes
 - discrete: 2560x720:   1/60 1/30 1/15
 - discrete: 1344x376:   1/100 1/60 1/30 1/15
 - discrete: 3840x1080:   1/30 1/15
